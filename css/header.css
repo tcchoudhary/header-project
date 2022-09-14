@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+body{
+    font-size: 14px;
+}
+header{
+  width: 100%;
+  padding: 10px 0 0;
+  background-color: brown;
+
+}
+.contianer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+}
+.logo-col img{
+    width: 50%;
+}
+#menu li{
+    float: left;
+    padding: 0 10px;
+}
+.font i{
+    padding-right: 20px;
+    transition: all 1000ms;
+}
+
+#menu a:hover {
+    background-color: transparent;
+    color: blueviolet;
+    transition: 5000ms;
+}
+#menu .active{
+    color: red;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+
+.font i:hover{
+    background-color: transparent;
+    color:blueviolet ;
+}

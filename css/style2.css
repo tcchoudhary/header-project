@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+img{
+    max-width: 100%;
+}
+body{
+
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+.slider{
+    width: 100%;
+    height: 100%;
+}
+#sliderimg{
+    width: 100%;
+    height: 100%;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.7),rgb(0,0,0,0.7));
+    position: absolute;
+    top: 0;
+}
+header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0 0 0;
+}
+.logo{
+    flex-basis: 10%;
+}
+.logo img{
+    width: 80px;
+}
+header ul li{
+    float: left;
+    padding: 0 10px;
+}
+.font i{
+    color: #fff;
+}
+
+.fa-solid{
+    padding-right: 10px;
+}
+
+header ul li a:hover{
+    background-color: transparent;
+    color: chocolate;
+    cursor: pointer;
+}
+
+.font i:hover{
+    background-color: transparent;
+    color: chocolate;
+    cursor: pointer;
+}
+.content{
+    width: 60%;
+    margin: 160px auto 0;
+    text-align: center;
+    color: #fff;
+}
+.content h1{
+    font-size: 32px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.content p{
+    width: 80%;
+    margin: 20px auto 100px;
+    font-weight: 100;
+    line-height: 25px;
+}
+div{
+    text-align: center;
+}
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    margin: 0 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #fe7250;
+    background: #fe7250;
+    color: #fff;
+    cursor: pointer;
+    transition:  0.5s;
+}
+#btn2{
+    background: transparent;
+    border: 2px solid #fff;
+}
+#btn2:hover{
+    background-color: #fe7350;
+    border: 2px solid #fe7250;
+  
+}
+button:hover{
+    background: transparent;
+    border: 2px solid #fff;
+}
+
+                  /*                                    header-complete                          */
+
